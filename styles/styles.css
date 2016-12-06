@@ -1,5 +1,6 @@
 body {
   background-color: blanchedalmond;
+  font-size: 120%;
 }
 
 nav {
@@ -8,7 +9,7 @@ nav {
   text-align: center;
 }
 
-a {
+nav a {
   padding: 0em 2em;
 }
 
@@ -22,5 +23,39 @@ a {
 }
 
 #image {
+  text-align: center;
+}
+
+#intro {
+  text-align: center;
+}
+
+.section {
+  width: 80%;
+  margin: 2em auto;
+  padding: 2em;
+  border-style: ridge;
+  border-width: .5em;
+}
+
+.section#parking {
+  background-color: tomato;
+  border-color: orange;
+}
+
+.section#parking h1 {
+  text-align: center;
+}
+
+.section#restaurant {
+  background-color: orange;
+  border-color: silver;
+}
+
+.name-logo {
+  text-align: center;
+}
+
+.image {
   text-align: center;
 }
