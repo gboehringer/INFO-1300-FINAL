@@ -26,12 +26,14 @@ nav a {
   text-align: center;
 }
 
-#intro {
+.intro {
+  width: 70%;
+  margin: auto;
   text-align: center;
 }
 
 .section {
-  width: 80%;
+  width: 70%;
   margin: 2em auto;
   padding: 2em;
   border-style: ridge;
@@ -52,10 +54,18 @@ nav a {
   border-color: silver;
 }
 
+.section#hotel {
+  background-color: sandybrown;
+}
+
 .name-logo {
   text-align: center;
 }
 
 .image {
   text-align: center;
+}
+
+.image#hotel {
+  margin-top: 1em;
 }
