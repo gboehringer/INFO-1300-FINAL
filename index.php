@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Ithaca Events - Apple Harvest Festival</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
-    <?php include 'includes/header.html';?>
+    <?php include 'includes/header.php';?>
     <div class='section' id='main'>
       <h3>Come celebrate everything Fall at Ithaca's Apple Harvest Festival!</h3>
       <p>Join us at the 35th annual AppleFest, presented by the Tompkins Trust

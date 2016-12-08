@@ -36,26 +36,50 @@ nav a {
   border-width: .5em;
 }
 
-.section#parking {
+.section-parking {
+  width: 70%;
+  margin: 2em auto;
+  padding: 2em;
+  border-style: ridge;
+  border-width: .5em;
   background-color: tomato;
   border-color: orange;
 }
 
-.section#parking h1 {
+.section-parking h1 {
   text-align: center;
 }
 
-.section#restaurant {
+.section-restaurant {
+  width: 70%;
+  margin: 2em auto;
+  padding: 2em;
+  border-style: ridge;
+  border-width: .5em;
   background-color: orange;
   border-color: silver;
 }
 
-.section#hotel {
+.section-hotel {
+  width: 70%;
+  margin: 2em auto;
+  padding: 2em;
+  border-style: ridge;
+  border-width: .5em;
   background-color: sandybrown;
 }
 
-.section#schedule {
+.section-schedule {
+  width: 70%;
+  margin: 2em auto;
+  padding: 2em;
+  border-style: ridge;
+  border-width: .5em;
   background-color: darkorange;
+}
+
+.section-schedule ul {
+  margin-bottom: 1em;
 }
 
 .name-logo {
@@ -66,7 +90,8 @@ nav a {
   text-align: center;
 }
 
-.image#hotel {
+.image-hotel {
+  text-align: center;
   margin-top: 1em;
 }
 
