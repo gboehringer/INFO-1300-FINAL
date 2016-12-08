@@ -1,6 +1,6 @@
 body {
   background-color: blanchedalmond;
-  font-size: 120%;
+  font-family: Georgia, serif;
 }
 
 nav {
@@ -13,17 +13,13 @@ nav a {
   padding: 0em 2em;
 }
 
-#title {
+#banner {
   text-align: center;
 }
 
-#container {
-  width: 70%;
-  margin: 2em auto;
-}
-
-#image {
-  text-align: center;
+.images {
+  width: 75%;
+  margin: auto;
 }
 
 .intro {
@@ -58,6 +54,10 @@ nav a {
   background-color: sandybrown;
 }
 
+.section#schedule {
+  background-color: darkorange;
+}
+
 .name-logo {
   text-align: center;
 }
@@ -68,4 +68,31 @@ nav a {
 
 .image#hotel {
   margin-top: 1em;
+}
+
+.image#left {
+  display: inline-block;
+  float: left;
+  margin: 1em;
+}
+
+.image#right {
+  display: inline-block;
+  float: right;
+  margin: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    display: none;
+  }
+  .image#map, .image#parking {
+    display: block;
+  }
+  .image#map img, .image#parking img {
+    width: 300px;
+  }
+  .name-logo img {
+    display: none;
+  }
 }

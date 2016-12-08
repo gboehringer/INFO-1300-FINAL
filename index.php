@@ -6,17 +6,8 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
-    <div id="title">
-      <h1>Ithaca Apple Harvest Festival</h1>
-    </div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="schedule.html">Schedule</a>
-      <a href="vendors.html">Vendors</a>
-      <a href="directions.html">Directions</a>
-      <a href="roomdining.html">Room and Dining</a>
-    </nav>
-    <div id="container">
+    <?php include 'includes/header.html';?>
+    <div class='section' id='main'>
       <h3>Come celebrate everything Fall at Ithaca's Apple Harvest Festival!</h3>
       <p>Join us at the 35th annual AppleFest, presented by the Tompkins Trust
         Company, for 3 days filled with food, fun, and of course, apples. Sample
@@ -30,11 +21,17 @@
         goods ranging from jewelry to sculptures and other items. Or just walk
         around and enjoy the sights and entertainment in trip that's fun for the
         whole family!</p>
-      <div id="image">
+    </div>
+    <div class='images'>
+      <div class='image' id='map'>
+        <img src='images/map.jpg' alt='festival map'> <!-- image from http://www.downtownithaca.com/ithaca-events/Apple%20Harvest%20Festival%20Presented%20by%20Tompkins%20Trust -->
+      </div>
+      <div class="image" id='left'>
         <img src="images/fest.jpg" alt="festival image"> <!-- photo by Hannah MacLean from https://www.flickr.com/photos/hannahmaclean/8381840938 -->
       </div>
+      <div class='image' id='right'>
+        <img src='images/fest2.jpg' alt='festival image'> <!-- image from https://www.facebook.com/taughannockfarmsinn/ -->
+      </div>
     </div>
-    <footer>
-    </footer>
   </body>
 </html>

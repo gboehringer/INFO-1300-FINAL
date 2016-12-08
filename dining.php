@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
+    <?php include 'includes/header.html';?>
     <div class='intro'>
       <h3>Want some recommendations for great restaurants nearby? Check out
         some of our top picks:
